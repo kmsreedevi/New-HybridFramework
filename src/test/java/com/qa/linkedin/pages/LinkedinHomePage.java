@@ -62,7 +62,9 @@ public class LinkedinHomePage extends BasePageWeb {
 		log.debug("click on the Linkedin HomePage Sign link");
 		click(signinLink);
 	}
-
+/**
+ * Signpg method()
+ */
 	public void verifyLinkedinSignpgTitle() {
 		log.debug("verify the linkedin home page title:" + linkedinLoginPgTitle);
 		wait.until(ExpectedConditions.titleIs(linkedinLoginPgTitle));
